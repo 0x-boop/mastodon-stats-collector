@@ -1,0 +1,21 @@
+{
+  "name": "digital-twin-stats",
+  "version": "1.0.0",
+  "description": "Script to collect Mastodon engagement statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stats": "node stats.js"
+  },
+  "keywords": [
+    "mastodon",
+    "statistics",
+    "social-media"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "masto": "^6.5.2",
+    "dotenv": "^16.4.1"
+  }
+}
